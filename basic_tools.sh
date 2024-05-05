@@ -42,3 +42,7 @@ apt upgrade -y
 for program_name in ${PROGRAMS_FOR_INSTALL[@]}; do
     apt install $program_name -y
 done
+
+echo "source /etc/profile.d/bash_completion.sh" >> /home/spedison/.bashrc
+echo "source /etc/profile.d/bash_completion.sh" >> /root/.bashrc
+
