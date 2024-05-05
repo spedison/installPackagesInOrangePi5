@@ -1,8 +1,18 @@
 #!/bin/bash
 
 PROGRAMS_FOR_INSTALL=(
-	vim	
-	zip
+  vim	
+  vim-command-t
+  vim-common
+  vim-runtime
+  vim-scripts
+  vim-tabular    
+  vim-syntax-docker
+  vim-syntax-gtk
+  vim-syntastic
+  vim-tabular
+  vim-ctrlp
+  zip
   unzip
   git
   curl
@@ -12,7 +22,7 @@ PROGRAMS_FOR_INSTALL=(
   make
   cmake
   binutils  
-	gfortran 	
+  gfortran 	
   nasm 
 )
 
