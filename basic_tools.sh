@@ -2,12 +2,13 @@
 
 PROGRAMS_FOR_INSTALL=(
   vim	
+  vim-addon-manager
   vim-command-t
   vim-common
+  vim-doc
   vim-runtime
   vim-scripts
   vim-tabular    
-  vim-syntax-docker
   vim-syntax-gtk
   vim-syntastic
   vim-tabular
@@ -24,6 +25,14 @@ PROGRAMS_FOR_INSTALL=(
   binutils  
   gfortran 	
   nasm 
+  perlsgml 
+  libtemplate-perl 
+  ctags
+  tcl8.6 
+  ri 
+  ruby-dev 
+  bundler 
+  cscope
 )
 
 apt update -y
