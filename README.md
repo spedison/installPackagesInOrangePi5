@@ -22,10 +22,13 @@
 ## Scripts
 
   1) turn on board with new OS
-  2) apt update
-  3) apt upgrade
-  4) Basic tools
-  5) java with
+  2) mkdir /media/Disco1T ; chmod 777 /media/Disco1T
+  3) Create one partition with fdisk /dev/nvme0n1p1
+  4) format partition with "mkfs.ext4 /dev/nvme0n1p1"
+  5) add line at /etc/fstav -> "/dev/nvme0n1p1 /media/Disco1T ext4"
+  6) reboot
+  7) run basic_tools.sh
+  8) run java_tools.sh
   
   
   * References :: https://sdkman.io/
