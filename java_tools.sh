@@ -1,8 +1,7 @@
-mkdir /media/Disco1T/tools/sdkman
 
 export SDKMAN_DIR="/media/Disco1T/tools/sdkman" && curl -s "https://get.sdkman.io" | bash
 
-source ~/.bashrc
+.  ~/.bashrc
 
 sdk install java 21.0.2-graalce -y
 sdk install java 17.0.8-graalce -n
