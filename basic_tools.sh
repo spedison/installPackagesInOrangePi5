@@ -1,6 +1,7 @@
 #!/bin/bash
 
 PROGRAMS_FOR_INSTALL=(
+  bash-completion
   vim	
   vim-addon-manager
   vim-command-t
