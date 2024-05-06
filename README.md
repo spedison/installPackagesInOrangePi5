@@ -26,9 +26,10 @@
   3) Create one partition with fdisk /dev/nvme0n1p1
   4) format partition with "mkfs.ext4 /dev/nvme0n1p1"
   5) add line at /etc/fstab -> "/dev/nvme0n1p1 /media/Disco1T ext4"
-  6) reboot
-  7) run basic_tools.sh
-  8) run java_tools.sh
+  6) ajust /etc/hosts with others boards
+  7) reboot
+  8) run basic_tools.sh
+  9) run java_tools.sh
   
   
   * References :: https://sdkman.io/
