@@ -11,10 +11,10 @@ sdk install scala 3.4.1
 sdk install maven 3.9.6
 sdk install groovy 4.0.21
 
-export SCALA_HOME=/media/Disco1T/tools/sdkman/candidates/scala/current
-export GRADLE_HOME=/media/Disco1T/tools/sdkman/candidates/gradle/current
-export MVN_HOME=/media/Disco1T/tools/sdkman/candidates/maven/current
-export PATH=$PATH:$JAVA_HOME/bin:$GRADLE_HOME/bin:$SCALA_HOME/bin:$MVN_HOME/bin
+echo "export SCALA_HOME=/media/Disco1T/tools/sdkman/candidates/scala/current" >> ~/.bashrc
+echo "export GRADLE_HOME=/media/Disco1T/tools/sdkman/candidates/gradle/current" >> ~/.bashrc
+echo "export MVN_HOME=/media/Disco1T/tools/sdkman/candidates/maven/current" >> ~/.bashrc
+echo "export PATH=$PATH:$JAVA_HOME/bin:$GRADLE_HOME/bin:$SCALA_HOME/bin:$MVN_HOME/bin" >> ~/.bashrc
 
 cd /media/Disco1T/tools/sdkman/candidates/
 ln -s $PWD/scala/3.4.1  $PWD/scala/current
